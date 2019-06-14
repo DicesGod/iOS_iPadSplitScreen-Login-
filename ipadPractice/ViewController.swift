@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var sendDelegate: SendDelegate? = nil
+    var userName: String? = nil
+
+   
+    
+    @IBOutlet weak var username: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        username.text = userName
     }
-
-
 }
-

@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		02B6F34522B2ADDE005B2D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F34422B2ADDE005B2D87 /* AppDelegate.swift */; };
-		02B6F34722B2ADDE005B2D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F34622B2ADDE005B2D87 /* ViewController.swift */; };
+		02B6F34722B2ADDE005B2D87 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F34622B2ADDE005B2D87 /* SignUpViewController.swift */; };
 		02B6F34A22B2ADDE005B2D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B6F34822B2ADDE005B2D87 /* Main.storyboard */; };
 		02B6F34D22B2ADDE005B2D87 /* ipadPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F34B22B2ADDE005B2D87 /* ipadPractice.xcdatamodeld */; };
 		02B6F34F22B2ADE0005B2D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B6F34E22B2ADE0005B2D87 /* Assets.xcassets */; };
 		02B6F35222B2ADE0005B2D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B6F35022B2ADE0005B2D87 /* LaunchScreen.storyboard */; };
+		02B6F35C22B2B4AD005B2D87 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F35B22B2B4AD005B2D87 /* TableViewCell.swift */; };
+		02B6F35E22B2D347005B2D87 /* SendDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F35D22B2D347005B2D87 /* SendDelegate.swift */; };
+		02B6F36022B2D422005B2D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6F35F22B2D422005B2D87 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02B6F34122B2ADDE005B2D87 /* ipadPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B6F34422B2ADDE005B2D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02B6F34622B2ADDE005B2D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02B6F34622B2ADDE005B2D87 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		02B6F34922B2ADDE005B2D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02B6F34C22B2ADDE005B2D87 /* ipadPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ipadPractice.xcdatamodel; sourceTree = "<group>"; };
 		02B6F34E22B2ADE0005B2D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B6F35122B2ADE0005B2D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B6F35322B2ADE0005B2D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B6F35B22B2B4AD005B2D87 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		02B6F35D22B2D347005B2D87 /* SendDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDelegate.swift; sourceTree = "<group>"; };
+		02B6F35F22B2D422005B2D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				02B6F34422B2ADDE005B2D87 /* AppDelegate.swift */,
-				02B6F34622B2ADDE005B2D87 /* ViewController.swift */,
+				02B6F34622B2ADDE005B2D87 /* SignUpViewController.swift */,
+				02B6F35B22B2B4AD005B2D87 /* TableViewCell.swift */,
+				02B6F35D22B2D347005B2D87 /* SendDelegate.swift */,
+				02B6F35F22B2D422005B2D87 /* ViewController.swift */,
 				02B6F34822B2ADDE005B2D87 /* Main.storyboard */,
 				02B6F34E22B2ADE0005B2D87 /* Assets.xcassets */,
 				02B6F35022B2ADE0005B2D87 /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B6F34722B2ADDE005B2D87 /* ViewController.swift in Sources */,
+				02B6F36022B2D422005B2D87 /* ViewController.swift in Sources */,
+				02B6F35C22B2B4AD005B2D87 /* TableViewCell.swift in Sources */,
+				02B6F35E22B2D347005B2D87 /* SendDelegate.swift in Sources */,
+				02B6F34722B2ADDE005B2D87 /* SignUpViewController.swift in Sources */,
 				02B6F34522B2ADDE005B2D87 /* AppDelegate.swift in Sources */,
 				02B6F34D22B2ADDE005B2D87 /* ipadPractice.xcdatamodeld in Sources */,
 			);
